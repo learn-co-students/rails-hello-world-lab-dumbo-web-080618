@@ -53,4 +53,5 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
+  get "hello_world", to: "static#hello_world" #get will go to views under static folder in hello_world file
 end

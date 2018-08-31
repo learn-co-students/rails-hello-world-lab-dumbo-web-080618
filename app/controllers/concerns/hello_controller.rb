@@ -1,0 +1,8 @@
+class HelloController < ApplicationController
+
+ def greeting
+
+   render :hello_world
+ end
+
+end
